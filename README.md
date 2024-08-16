@@ -129,8 +129,25 @@ The main four functions of this supply chain managment implementation is "Create
 
 
 
-# Blockchain Developer Nanodegree project 3 (Supply chain )
-This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
+# Blockchain Asset Tracking
+
+In the dynamic environment of a supply chain, tracking physical assets digitally is essential for efficient operations. This subproduct leverages blockchain technology to offer secure, transparent, and decentralized tracking of assets. It ensures that customers can monitor their packages privately while benefiting from enhanced security and transparency.
+
+## Features
+
+- **Create Asset:** Register new assets on the blockchain for secure and immutable tracking.
+- **Transfer Asset:** Facilitate the seamless transfer of assets between participants in the supply chain.
+- **Search Asset:** Quickly locate and retrieve information about any asset using blockchain-based queries.
+- **Delete Asset:** Remove assets from the system as needed, maintaining the integrity of the blockchain ledger.
+- **Event History:** Maintain a comprehensive history of asset-related events, including creation, transfer, search, and deletion.
+- **User Management:** Secure login, signup, and logout functionalities to manage access and ensure privacy.
+
+## Benefits for Walmart
+
+- **Enhanced Privacy:** Customers can track their packages with confidence, knowing that their data is private and only accessible to them.
+- **Increased Security:** Blockchain's decentralized nature provides robust security, preventing unauthorized access and tampering.
+- **Transparency and Accountability:** The immutable blockchain ledger ensures transparent tracking and verification of asset movements and ownership.
+- **Efficient Asset Management:** Streamlined processes for creating, transferring, searching, and deleting assets improve supply chain efficiency.
 
 ## Project write-up - UML
 
