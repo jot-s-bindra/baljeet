@@ -1,20 +1,26 @@
-<br />
-<a href="https://github.com/finos/perspective/blob/master/docs/static/svg/perspective-logo-light.svg?raw=true#gh-light-mode-only"><img src="https://github.com/finos/perspective/raw/master/docs/static/svg/perspective-logo-light.svg?raw=true#gh-light-mode-only" alt="Perspective" width="260"></a>
-<a href="https://github.com/finos/perspective/blob/master/docs/static/svg/perspective-logo-dark.svg?raw=true#gh-dark-mode-only"><img src="https://github.com/finos/perspective/raw/master/docs/static/svg/perspective-logo-dark.svg?raw=true#gh-dark-mode-only" alt="Perspective" width="260"></a>
-<br/><br/>
+
+
+
+# 3D Review Analytics
 
 [![npm](https://img.shields.io/npm/v/@finos/perspective.svg?style=flat)](https://www.npmjs.com/package/@finos/perspective)
 [![PyPI](https://img.shields.io/pypi/v/perspective-python.svg?style=flat)](https://pypi.python.org/pypi/perspective-python)
 [![crates.io](https://img.shields.io/crates/v/perspective.svg?style=flat)](https://crates.io/crates/perspective)
 [![Build Status](https://github.com/finos/perspective/actions/workflows/build.yaml/badge.svg?branch=master&event=push)](https://github.com/finos/perspective/actions/workflows/build.yaml)
 
-<br/>
+This subproduct enhances Walmart's ability to analyze customer feedback by transforming user reviews into interactive 3D visualizations. It allows for a more engaging and presentable way to interpret data, enabling better insights into customer sentiments, trends, and product issues.
 
-Perspective is an <i>interactive</i> analytics and data visualization component,
-which is especially well-suited for <i>large</i> and/or <i>streaming</i>
-datasets. Use it to create user-configurable reports, dashboards, notebooks and
-applications, then deploy stand-alone in the browser, or in concert with Python
-and/or [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/).
+## Features
+
+- **Interactive 3D Models:** Transforms user reviews into dynamic 3D visualizations, providing a more immersive view of customer feedback.
+- **Dynamic Analytics:** Offers real-time analytics to identify trends, patterns, and sentiments from customer reviews.
+- **Presentable Reports:** Creates visually appealing and informative reports to assist in decision-making and improve customer experience.
+
+## Benefits for Walmart
+
+- **Enhanced Visualization:** Helps in identifying and addressing product faults by visualizing customer reviews in 3D.
+- **Improved Insights:** Provides actionable insights into customer sentiments and trends.
+- **Effective Communication:** Facilitates clearer communication of feedback and issues to stakeholders.
 
 
 
@@ -28,22 +34,23 @@ and/or [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/).
 
 
 
-# Pixel2Mesh
-This repository contains the TensorFlow implementation for the following paper</br>
+# 2D to 3D Modeling
 
-[Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images (ECCV2018)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Nanyang_Wang_Pixel2Mesh_Generating_3D_ECCV_2018_paper.pdf)</br>
+This subproduct converts 2D images from customer photo reviews into detailed 3D models. Walmart can leverage this technology to enhance the analysis of product issues and feedback. Customers simply upload their images, which are then transformed into interactive 3D models. This not only provides a clearer perspective on product faults but also reduces the effort required from customers, who no longer need to create 3D models manually.
 
-Nanyang Wang, [Yinda Zhang](http://robots.princeton.edu/people/yindaz/), [Zhuwen Li](http://www.lizhuwen.com/), [Yanwei Fu](http://yanweifu.github.io/), [Wei Liu](http://www.ee.columbia.edu/~wliu/), [Yu-Gang Jiang](http://www.yugangjiang.info/).
+## Features
 
-#### Citation
-If you use this code for your research, please consider citing:
+- **3D Model Generation:** Automatically converts 2D customer review images into interactive 3D models.
+- **Enhanced Visualization:** Offers a detailed and immersive view of product faults, aiding in more accurate assessments.
+- **Customer Insights:** Facilitates effective communication of product issues or praise directly to sellers, based on detailed 3D visualizations.
+- **Effortless Upload:** Simplifies the process for customers by allowing them to upload images without needing to create 3D models themselves.
 
-    @inProceedings{wang2018pixel2mesh,
-      title={Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images},
-      author={Nanyang Wang and Yinda Zhang and Zhuwen Li and Yanwei Fu and Wei Liu and Yu-Gang Jiang},
-      booktitle={ECCV},
-      year={2018}
-    }
+## Benefits for Walmart
+
+- **Improved Product Analysis:** Enables clear visualization of issues reported by customers, helping retailers to quickly identify and address faults.
+- **Enhanced Customer Experience:** Reduces customer effort and frustration by automating the 3D modeling process.
+- **Efficient Feedback Handling:** Allows for direct and clear communication of customer feedback to sellers through detailed 3D models.
+
 
 # Try it on Colab
 
@@ -54,25 +61,6 @@ Installing all the dependencies might be tricky and you need a computer with a C
 
 
 
-Our code has been tested with Python 2.7, **TensorFlow 1.3.0**, TFLearn 0.3.2, CUDA 8.0 on Ubuntu 14.04.
-
-# News
-- Nov. 8, we update the script for generate auxiliary data.
-
-# Running the demo
-```
-git clone https://github.com/nywang16/Pixel2Mesh.git
-cd Data/
-```
-Download the pre-trained model and unzip to the `Data/` folder.
-* https://drive.google.com/file/d/1gD-dk-XrAa5mfrgdZSunjaS6pUUWsZgU/view?usp=sharing
-```
-unzip checkpoint.zip
-```
-
-#### Reconstructing shapes
-    python demo.py --image Data/examples/plane.png
-Run the demo code and the output mesh file is saved in `Data/examples/plane.obj` 
 
 #### Input image, output mesh
 <img src="./Docs/images/plane.png" width = "330px" /><img src="./Docs/images/plane.gif" />
