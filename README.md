@@ -81,14 +81,7 @@ Installing all the dependencies might be tricky and you need a computer with a C
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13xkSkvPaF5GU6Wpf35nVHUdP77oBVHlT#scrollTo=xXxbMrF4fdZs)
 
 
-# Project Page
-The project page is available at https://nywang16.github.io/p2m/index.html
 
-# Dependencies
-Requirements:
-* Python2.7+ with Numpy and scikit-image
-* [Tensorflow (version 1.0+)](https://www.tensorflow.org/install/)
-* [TFLearn](http://tflearn.org/installation/)
 
 Our code has been tested with Python 2.7, **TensorFlow 1.3.0**, TFLearn 0.3.2, CUDA 8.0 on Ubuntu 14.04.
 
@@ -112,16 +105,6 @@ Run the demo code and the output mesh file is saved in `Data/examples/plane.obj`
 
 #### Input image, output mesh
 <img src="./Docs/images/plane.png" width = "330px" /><img src="./Docs/images/plane.gif" />
-
-# Installation
-
-If you use CD and EMD for training or evaluation, we have included the cuda implementations of [Fan et. al.](https://github.com/fanhqme/PointSetGeneration) in external/
-
-    cd Pixel2Mesh/external/
-
-    Modify the first 3 lines of the makefile to point to your nvcc, cudalib and tensorflow library.
-
-    make
 
 
 # Dataset
@@ -153,24 +136,6 @@ The total number of training epoch is 30; the learning rate is initialized as 3e
 The evaluation code was released, please refer to `eval_testset.py` for more details.
 
 Notice that the 3D shape are downscaled by a factor of 0.57 to generate rendering. As result, all the numbers shown in experiments used 0.57xRaw Shape for evaluation. This scale may be related to the render proccess, we used the rendering data from 3DR2N2 paper, and this scale was there since then for reason that we don't know.
-
-# Statement
-This software is for research purpose only. </br>
-Please contact us for the licence of commercial purposes. All rights are preserved.
-
-# Contact
-Nanyang Wang (nywang16 AT fudan.edu.cn)
-
-Yinda Zhang (yindaz AT cs.princeton.edu)
-
-Zhuwen Li (lzhuwen AT gmail.com)
-
-Yanwei Fu (yanweifu AT fudan.edu.cn)
-
-Yu-Gang Jiang (ygj AT fudan.edu.cn)
-
-# License
-Apache License version 2.0
 
 
 
