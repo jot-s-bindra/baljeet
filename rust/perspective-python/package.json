@@ -1,0 +1,23 @@
+{
+    "name": "@finos/perspective-python",
+    "version": "3.0.0-rc.6",
+    "description": "",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/finos/perspective"
+    },
+    "type": "module",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "node build.mjs",
+        "clean": "rimraf perspective.data && rimraf dist && rimraf build",
+        "test": "python -m pytest perspective/tests"
+    },
+    "devDependencies": {
+        "cpy": "^9.0.1"
+    },
+    "dependencies": {
+        "@finos/perspective-jupyterlab": "workspace:*"
+    }
+}
