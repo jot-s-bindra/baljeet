@@ -16,22 +16,7 @@ datasets. Use it to create user-configurable reports, dashboards, notebooks and
 applications, then deploy stand-alone in the browser, or in concert with Python
 and/or [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/).
 
-### Features
 
--   A fast, memory efficient streaming query engine, written in
-    C++ and compiled for both [WebAssembly](https://webassembly.org/) and
-    [Python](https://www.python.org/), with read/write/streaming for
-    [Apache Arrow](https://arrow.apache.org/), and a high-performance columnar
-    expression language based on [ExprTK](https://github.com/ArashPartow/exprtk).
-
--   A framework-agnostic User Interface packaged as a
-    [Custom Element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements),
-    powered either in-browser via WebAssembly or virtually via
-    WebSocket server (Python/Node).
-
--   A [JupyterLab](https://jupyter.org/) widget and Python client library, for
-    interactive data analysis in a notebook, as well as _scalable_ production
-    [Voila](https://github.com/voila-dashboards/voila) applications.
 
 ### Examples
 
@@ -39,29 +24,7 @@ and/or [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/).
 <table><tbody><tr><td>editable</td><td>file</td><td>fractal</td></tr><tr><td><a href="https://perspective.finos.org/block?example=editable"><img height="125" src="https://perspective.finos.org/blocks/editable/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=file"><img height="125" src="https://perspective.finos.org/blocks/file/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=fractal"><img height="125" src="https://perspective.finos.org/blocks/fractal/preview.png?"></img></a></td></tr><tr><td>market</td><td>raycasting</td><td>evictions</td></tr><tr><td><a href="https://perspective.finos.org/block?example=market"><img height="125" src="https://perspective.finos.org/blocks/market/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=raycasting"><img height="125" src="https://perspective.finos.org/blocks/raycasting/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=evictions"><img height="125" src="https://perspective.finos.org/blocks/evictions/preview.png?"></img></a></td></tr><tr><td>nypd</td><td>magic</td><td>streaming</td></tr><tr><td><a href="https://perspective.finos.org/block?example=nypd"><img height="125" src="https://perspective.finos.org/blocks/nypd/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=magic"><img height="125" src="https://perspective.finos.org/blocks/magic/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=streaming"><img height="125" src="https://perspective.finos.org/blocks/streaming/preview.png?"></img></a></td></tr><tr><td>covid</td><td>webcam</td><td>movies</td></tr><tr><td><a href="https://perspective.finos.org/block?example=covid"><img height="125" src="https://perspective.finos.org/blocks/covid/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=webcam"><img height="125" src="https://perspective.finos.org/blocks/webcam/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=movies"><img height="125" src="https://perspective.finos.org/blocks/movies/preview.png?"></img></a></td></tr><tr><td>superstore</td><td>citibike</td><td>olympics</td></tr><tr><td><a href="https://perspective.finos.org/block?example=superstore"><img height="125" src="https://perspective.finos.org/blocks/superstore/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=citibike"><img height="125" src="https://perspective.finos.org/blocks/citibike/preview.png?"></img></a></td><td><a href="https://perspective.finos.org/block?example=olympics"><img height="125" src="https://perspective.finos.org/blocks/olympics/preview.png?"></img></a></td></tr><tr><td>jupyterlab</td></tr><tr><td><a href="http://beta.mybinder.org/v2/gh/finos/perspective/master?urlpath=lab/tree/examples/jupyter-notebooks"><img height="125" src="https://perspective.finos.org/img/jupyterlab.png?"></img></a></td></tr></tbody></table>
 <!-- Examples -->
 
-### Documentation
 
--   [Project Site](https://perspective.finos.org/)
--   User Guides
-    -   [Javascript User Guide](https://perspective.finos.org/docs/js.html)
-    -   [Python User Guide](https://perspective.finos.org/docs/python.html)
-    -   [Developer Guide](https://perspective.finos.org/docs/development.html)
--   Concepts
-    -   [Table](https://perspective.finos.org/docs/table.html)
-    -   [View](https://perspective.finos.org/docs/view.html)
-    -   [Expression Columns](https://perspective.finos.org/docs/expressions.html)
-    -   [Data Binding](https://perspective.finos.org/docs/table.html)
--   API
-    -   [Perspective API](https://github.com/finos/perspective/blob/master/packages/perspective/README.md)
-    -   [Perspective Viewer API](https://perspective.finos.org/docs/obj/perspective-viewer/)
-    -   [Perspective Python API](https://perspective.finos.org/docs/obj/perspective-python.html)
-
-### Community / Media
-
--   [Streaming, cross-sectional data visualization in JupyterLab | Junyuan Tan, JupyterCon 2020](http://www.youtube.com/watch?v=IO-HJsGdleE)
--   [Perspective in 3D | Andrew Stein, Open Source in Finance Forum NYC 2022](https://www.youtube.com/watch?v=0ut-ynvBpGI)
--   [Build an order book simulation with Perspective | Andrew Stein, FINOS Open Source in Fintech Meetup 2021](https://www.youtube.com/watch?v=no0qChjvdgQ)
--   [Perspective project case study | FINOS](https://www.finos.org/hubfs/FINOS/assets/FINOS%20Perspective%20Case%20Study.pdf)
 
 
 
@@ -89,37 +52,6 @@ The main four functions of this supply chain managment implementation is "Create
 
 ### Search Asset
 ![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/assetDetail.png)
-
-## Getting Started
-### Prequisites
-  - PHP
-  - XAMPP
-  - Web3JS
-  - MetaMask
-  - Visual Studio Code "any IDE would do the trick"
-  - Google Chrome " any Browser would do the trick too"
-
-### Run
-#### Install and Setup MetaMask
-go to [MetaMask](https://metamask.io/download.html) to download the extention and create an account. Switch to Rinkebey Test Network and Deposite some Ether "Go to Test Faucet and hit Get Ether". Then go to Crypto Faucet and follow the instructions.
-
-#### XAMPP
-start XAMPP Apache server and MySQL and go to http://localhost/blockchain/index.html. Don't forget to move the files to xampp/htdocs/blockchain to not get an error!.
-
-#### Remix Ethereum
-If you want to edit the .sol Contracts you need to go to [Remix Ethereum](https://remix.ethereum.org/) . switch to Solidity enviroment and create two .sol files. AssetTracker.sol and AssetLibrary.sol, Then copy the content of the contracts from this git repo into the .sol files. don't forget to compile each file first. Then in the Deploy tab switch to Injected Web3 enviroment and hit Deploy.
-To use your edited contracts in the repo go to js/ether_config.js and edit the address and abi variables. you can get the address from the deploy tab and the abi from the complie tab. "Do I need to tell you everything?"
-
-## Authors
-Me
-
-## License
-Free
-
-## Acknowledgment
-Big thanks to [ ilavisharma ](https://github.com/ilavisharma/Asset-Tracker-Blockchain) for providing the base code and contracts.
-
-
 
 
 
@@ -398,101 +330,7 @@ Summary
 > Total deployments:   6
 > Final cost:          0.05338716 ETH
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
-
-```
-Give examples (to be clarified)
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Clone this repository:
-
-```
-git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
-```
-
-Change directory to ```project-6``` folder and install all requisite npm packages (as listed in ```package.json```):
-
-```
-cd project-6
-npm install
-```
-
-Launch Ganache:
-
-```
-ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
-```
-
-Your terminal should look something like this:
-
-![truffle test](images/ganache-cli.png)
-
-In a separate terminal window, Compile smart contracts:
-
-```
-truffle compile
-```
-
-Your terminal should look something like this:
-
-![truffle test](images/truffle_compile.png)
-
-This will create the smart contract artifacts in folder ```build\contracts```.
-
-Migrate smart contracts to the locally running blockchain, ganache-cli:
-
-```
-truffle migrate
-```
-
-Your terminal should look something like this:
-
-![truffle test](images/truffle_migrate.png)
-
-Test smart contracts:
-
-```
-truffle test
-```
-
-All 10 tests should pass.
-
-![truffle test](images/truffle_test.png)
-
-In a separate terminal window, launch the DApp:
-
-```
-npm run dev
-```
-
-## Built With
-
-* [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
-* [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
-to make the web faster, safer, and more open.
-* [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
-
-
-## Authors
-
-See also the list of [contributors](https://github.com/your/project/contributors.md) who participated in this project.
-
-## Acknowledgments
-
-* Solidity
-* Ganache-cli
-* Truffle
-* IPFS
 
 
 
