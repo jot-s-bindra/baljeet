@@ -28,35 +28,6 @@ and/or [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/).
 
 
 
-
-
-
-
-# Blockchain Asset Tracking
-A supply chain consists of many different participants exchanging goods, services, and payments. It is often desirable to track the physical assets digitally to be informed about the whereabouts, to trigger processes, certify the ownership, and perform corresponding payments.
-
-The main four functions of this supply chain managment implementation is "Create Asset" , "Transfer Asset" ,"Search Asset" and "Delete Asset". also some minor functionalities include an event history of the four main functions and a login/signup/logout pages.
-
-## Screenshots
-### View Assets
-![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/index.png)
-
-### Create Asset
-![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/create.png)
-
-### Transfer Asset
-![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/transfer.png)
-
-### Delete Asset
-![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/delete.png)
-
-### Search Asset
-![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/assetDetail.png)
-
-
-
-
-
 # Pixel2Mesh
 This repository contains the TensorFlow implementation for the following paper</br>
 
@@ -136,6 +107,35 @@ The total number of training epoch is 30; the learning rate is initialized as 3e
 The evaluation code was released, please refer to `eval_testset.py` for more details.
 
 Notice that the 3D shape are downscaled by a factor of 0.57 to generate rendering. As result, all the numbers shown in experiments used 0.57xRaw Shape for evaluation. This scale may be related to the render proccess, we used the rendering data from 3DR2N2 paper, and this scale was there since then for reason that we don't know.
+
+
+
+
+
+
+
+# Blockchain Asset Tracking
+A supply chain consists of many different participants exchanging goods, services, and payments. It is often desirable to track the physical assets digitally to be informed about the whereabouts, to trigger processes, certify the ownership, and perform corresponding payments.
+
+The main four functions of this supply chain managment implementation is "Create Asset" , "Transfer Asset" ,"Search Asset" and "Delete Asset". also some minor functionalities include an event history of the four main functions and a login/signup/logout pages.
+
+## Screenshots
+### View Assets
+![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/index.png)
+
+### Create Asset
+![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/create.png)
+
+### Transfer Asset
+![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/transfer.png)
+
+### Delete Asset
+![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/delete.png)
+
+### Search Asset
+![alt text](https://github.com/FirasHabri/Blockchain-Asset-Tracking/blob/master/screenshots/assetDetail.png)
+
+
 
 
 
