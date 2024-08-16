@@ -1,15 +1,35 @@
 
 
 
-# 3D Review Analytics
 
+# RevTrack-Tracking Reviews adding a newer dimension
 [![npm](https://img.shields.io/npm/v/@finos/perspective.svg?style=flat)](https://www.npmjs.com/package/@finos/perspective)
 [![PyPI](https://img.shields.io/pypi/v/perspective-python.svg?style=flat)](https://pypi.python.org/pypi/perspective-python)
 [![crates.io](https://img.shields.io/crates/v/perspective.svg?style=flat)](https://crates.io/crates/perspective)
 [![Build Status](https://github.com/finos/perspective/actions/workflows/build.yaml/badge.svg?branch=master&event=push)](https://github.com/finos/perspective/actions/workflows/build.yaml)
 
-This subproduct enhances Walmart's ability to analyze customer feedback by transforming user reviews into interactive 3D visualizations. It allows for a more engaging and presentable way to interpret data, enabling better insights into customer sentiments, trends, and product issues.
+RevTrack revolutionizes the way Walmart handles customer feedback by combining advanced 3D modeling, analytics, and decentralized tracking. This comprehensive solution not only processes and analyzes reviews but also offers intelligent product recommendations and streamlined management tools.
 
+## Features
+
+- **Negative Review Filtering:** Automatically identifies and filters out negative reviews to focus on actionable feedback.
+- **3D Model Generation:** Converts filtered reviews into detailed 3D models, offering a visual representation of customer feedback and product issues.
+- **3D Analytics:** Provides in-depth, interactive 3D analytics based on review data, helping retailers understand trends and sentiments from a new perspective.
+- **Feedback-Driven Recommendations:** Uses insights from 3D analytics to auto-recommend new products or improvements, enhancing decision-making and product development.
+- **Decentralized Package Tracking:** Incorporates a secure, decentralized package tracking system ensuring privacy and transparency for customers, enabling them to monitor their packages in real-time.
+- **Custom LLM for Excel Automation:** Integrates a custom Large Language Model (LLM) designed to automate and handle Excel tasks, streamlining data management and reporting processes.
+
+## Benefits for Walmart
+
+- **Enhanced Review Insights:** Gain deeper understanding of customer feedback through 3D models and interactive analytics.
+- **Efficient Product Recommendations:** Leverage feedback-driven insights to make informed recommendations and improvements.
+- **Privacy and Security:** Utilize decentralized tracking to ensure customer data privacy and security.
+- **Streamlined Data Management:** Automate and simplify Excel handling with a custom LLM, improving operational efficiency.
+
+
+# 3D Review Analytics
+
+This subproduct enhances Walmart's ability to analyze customer feedback by transforming user reviews into interactive 3D visualizations. It allows for a more engaging and presentable way to interpret data, enabling better insights into customer sentiments, trends, and product issues.
 ## Features
 
 - **Interactive 3D Models:** Transforms user reviews into dynamic 3D visualizations, providing a more immersive view of customer feedback.
